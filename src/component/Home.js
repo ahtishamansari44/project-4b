@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import useWebAnimations, { flip, zoomIn, slideInUp, fadeInLeft } from "@wellyshen/use-web-animations";
 import { makeStyles, Paper, Grid, Container, Typography } from '@material-ui/core';
 import SVG1 from '../svg/svg1.js'
@@ -97,7 +97,7 @@ export default function Home() {
             business office
             services
           </Typography>
-          <a href="#" ref={link1.ref} className="link" >Revenue Cycle Management</a>
+          <a href="/" ref={link1.ref} className="link" >Revenue Cycle Management</a>
           </Paper>
         </Grid>
       </Grid>
@@ -112,7 +112,7 @@ export default function Home() {
           <Typography className="title1-content" variant="boby1" component="p" ref={slide3.ref} >
           A highly specialized Management team with over 20 combined years of experience in the Healthcare industry with proven ability to optimally combine digital technology, skilled resources and efficient business processes to implement creative as well as proven market solutions to suit an ever-evolving market. Our forte has been to successfully tailor our solutions to support your needs whether it is in the space of Consulting, Product Management or Service Delivery
           </Typography>
-          <a href="#" className="link" ref={link2.ref}>About Us</a>
+          <a href="/" className="link" ref={link2.ref}>About Us</a>
           </Paper>
         </Grid>
         <Grid item xs={12} sm={6}>
@@ -181,7 +181,7 @@ export default function Home() {
           <Typography className="title1-content" variant="boby1" component="p" ref={slide5.ref} >
           We offer customized digital services and scalable operational strategies to prepare your Organization ride through the waves of uncertainty in the form of disruptive technology and government regulations so you can deliver accelerated and cost-effective services for your consumers
           </Typography>
-          <a href="#" className="link" ref={link3.ref}>Services</a>
+          <a href="/" className="link" ref={link3.ref}>Services</a>
           </Paper>  
         </Grid>
       </Grid>
@@ -241,7 +241,7 @@ about your requirements
           <Typography className="title1-content" variant="boby1" component="p" ref={slide10.ref} >
           Contact us and know more about how our experts can help your business grow.
           </Typography>
-          <a href="#" className="link" ref={link4.ref}>Enquire Now</a>
+          <a href="/" className="link" ref={link4.ref}>Enquire Now</a>
         </Grid>
       </Grid>
       </Container>
@@ -257,7 +257,7 @@ about your requirements
           <Typography style={{color:'#ffff', textAlign:'center'}} variant="h6" component="h6" ref={slide8.ref} >
           Embark on an exciting career with us to learn and grow alongside the best in the industry
           </Typography>
-          <a href="#" className="link" ref={link5.ref}>View Current Openning</a>
+          <a href="/" className="link" ref={link5.ref}>View Current Openning</a>
           </Grid>
 
           <Grid item xs={12} sm={3}></Grid>
