@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import useWebAnimations, { fadeIn, flip, zoomIn, slideInUp, fadeInLeft } from "@wellyshen/use-web-animations";
+import useWebAnimations, { flip, zoomIn, slideInUp, fadeInLeft } from "@wellyshen/use-web-animations";
 import { makeStyles, Paper, Grid, Container, Typography } from '@material-ui/core';
 import SVG1 from '../svg/svg1.js'
 import SVG3 from '../svg/svg3.js'
@@ -79,7 +79,7 @@ export default function Home() {
           fill: 'forwards' },
       });
     });
-  }, [link1.animate, link2.animate, link3.animate, link4.animate, link5.animate]);
+  }, []);
 
   return (
     <>
