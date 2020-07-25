@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import useWebAnimations, { flip, zoomIn, slideInUp, fadeInLeft } from "@wellyshen/use-web-animations";
 import { makeStyles, Paper, Grid, Container, Typography } from '@material-ui/core';
 import SVG1 from '../svg/svg1.js'
@@ -51,7 +51,7 @@ export default function Home() {
 
 
 
-  useEffect(() => {
+
     document.addEventListener("mouseover", (e) => {
       link1.animate({
         keyframes: [ {transform: 'translate(0%, 0)',  borderBottomColor: '#2196F3'}, { offset: 0.8, transform: 'translate(100%, 0)', borderBottomColor: '#fdb811'} ],
@@ -79,7 +79,7 @@ export default function Home() {
           fill: 'forwards' },
       });
     });
-  }, []);
+
 
   return (
     <>
