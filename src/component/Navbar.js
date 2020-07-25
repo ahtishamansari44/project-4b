@@ -144,11 +144,11 @@ export default function PrimarySearchAppBar() {
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-          <a href="#" className="tab">Home</a>
-          <a href="#" className="tab">About Us</a>
-          <a href="#" className="tab">Services</a>
-          <a href="#" className="tab">Career</a>
-          <a href="#" className="tab">Contact</a>
+          <a href="/" className="tab">Home</a>
+          <a href="/" className="tab">About Us</a>
+          <a href="/" className="tab">Services</a>
+          <a href="/" className="tab">Career</a>
+          <a href="/" className="tab">Contact</a>
           </div>
           <div className={classes.sectionMobile}>
             <IconButton
