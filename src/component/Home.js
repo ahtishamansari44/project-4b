@@ -52,7 +52,7 @@ export default function Home() {
 
 
 
-    document.addEventListener("mouseover", (e) => {
+    // document.addEventListener("mouseover", (e) => {
       link1.animate({
         keyframes: [ {transform: 'translate(0%, 0)',  borderBottomColor: '#2196F3'}, { offset: 0.8, transform: 'translate(100%, 0)', borderBottomColor: '#fdb811'} ],
         timing: { duration: 800, 
@@ -78,7 +78,7 @@ export default function Home() {
         timing: { duration: 800, 
           fill: 'forwards' },
       });
-    });
+    // });
 
 
   return (
